@@ -1,38 +1,166 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Times, 'Times New Roman', serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.blue-header {
+  height: 10vh;
+  width: 100vw;
+  background-color: rgb(63,165,218);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.blue-header > p {
+  background-color: rgb(63,165,218) ;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding-left: 35px;
+  padding-top: 25px;
+} 
+
+.middle-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 50px 5px 50px;
+}
+
+.white-box {
+  height: 58vh;
+  width: 90%;
+  background-color: rgb(235,235,235);
+}
+
+.page-number {
+  font-size: 2rem;
+  font-weight: 700;
+  height: 20px;
+  width: 20px;
+  background-color: rgb(235,235,235);
+  color: black;
+  margin-left: 770px;
+
+}
+
+.person-name {
+  height: 40px;
+  width: 50vw;
+  font-size: 1.8rem;
+  font-weight: 700;
+  background-color:rgb(235,235,235);
+  color: black;
+  text-decoration: underline solid;
+  text-decoration-color: rgb(63,165,218);
+  padding-left: 50px;
+}
+
+.person-info {
+  background-color: rgb(235,235,235);
+  height: 30%;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: space-evenly;
+  padding-left: 50px;
+  font-size: 1.2rem;
+  font-weight: 800;
+  padding-top: 20px;
+}
+
+.favorite-movies {
+  height: 10%;
+  width: 100%;
+  background-color: rgb(235,235,235);
+  font-size: 1.2rem;
+  font-weight: 800;
+  padding-top: 20px;
+  padding-left: 50px;
+}
+
+.movie-list {
+  background-color: rgb(235,235,235);
+  height: 25%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 100px;
+  font-size: 1.2rem;
+}
+
+.bottom-section {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.control-box {
+  width: 81%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.edit-box {
+  width: 25vw; 
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.previous-button {
+  height: 25px;
+  width: 60px;
   color: white;
+  font-weight: 800;
+  border-style: none;
+  font-size: 1.1rem;
+  background-color: black;
 }
 
-.App-link {
-  color: #61dafb;
+.edit-button {
+  height: 25px;
+  width: 45px;
+  background-color: rgb(63,165,218);
+  color: white;
+  border-style: none;
+  border-radius: 25%;
+  font-weight: 650;
+  font-size: .75rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.delete-button {
+  height: 25px;
+  width: 60px;
+  background-color: rgb(63,165,218);
+  color: white;
+  border-style: none;
+  border-radius: 25%;
+  font-weight: 650;
+  font-size: .75rem;
+}
+
+.new-button {
+  height: 25px;
+  width: 45px;
+  background-color: rgb(63,165,218);
+  color: white;
+  border-style: none;
+  border-radius: 25%;
+  font-weight: 650;
+  font-size: .75rem;
+}
+
+.next-button {
+  height: 25px;
+  width: 60px;
+  color: white;
+  font-weight: 800;
+  border-style: none;
+  font-size: 1.1rem;
+  background-color: black;
 }
